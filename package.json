@@ -6,8 +6,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "debug": "ts-node --inspect-brk=9229 --debug examples/accounts.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc && copyfiles util/*.js dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
